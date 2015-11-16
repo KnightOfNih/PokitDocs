@@ -1,0 +1,27 @@
+{
+  "name": "PokitDocs",
+  "version": "0.0.0",
+  "authors": [
+    "Will Lovett"
+  ],
+  "description": "A mapping tool for physicians.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.3.0",
+    "angular-route": "~1.4.7",
+    "jquery-ui": "~1.11.4",
+    "angular-animate": "~1.4.7",
+    "html5shiv": "~3.7.3",
+    "respond": "~1.4.2",
+    "highcharts": "highcharts-release#~4.1.9"
+  }
+}

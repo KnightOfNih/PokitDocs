@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="LayoutCtrl" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title>PokitDocs - The physicians of PokitDok</title>
+
+    <!-- I'm sinning by in-lining I know -->
+    <style>
+        html, body, #main, #container {
+            height: 100%;
+            min-height: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- Start: Main -->
+<div id="main" ng-view></div>
+<!-- End: Main -->
+
+<!-- BEGIN: PAGE SCRIPTS -->
+
+<!-- jQuery -->
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/jquery-ui/jquery-ui.js"></script>
+
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+
+<!-- Angular -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+
+
+<!-- Angular -->
+<script src="app.module.js"></script>
+
+<!-- Services -->
+<script src="services/services.module.js"></script>
+<script src="services/physician.service.js"></script>
+
+<!-- Directives -->
+<script src="directives/directives.module.js"></script>
+<script src="directives/map.directive.js"></script>
+
+<!-- Core -->
+<script src="core/core.module.js"></script>
+<script src="core/config.js"></script>
+
+<script src="layout/layout.module.js"></script>
+<script src="layout/layout.controller.js"></script>
+
+<script src="master-data/master-data.module.js"></script>
+<script src="master-data/master-data.controller.js"></script>
+
+<!-- END: PAGE SCRIPTS -->
+
+</body>
+
+</html>
