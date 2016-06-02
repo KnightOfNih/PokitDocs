@@ -9,7 +9,7 @@ module.exports = function (config) {
     var router = express.Router(),
 
         // Would be better to abstract out as a service
-        url = 'https://openpaymentsdata.cms.gov/resource/vk48-en25.json?$select=count(*)&$where=physician_profile_state=';
+        url = 'https://openpaymentsdata.cms.gov/resource/gmj8-2w4s.json?$select=count(*)&$where=physician_profile_state=';
 
     router.get('/', function (req, res) {
         res.render('layout/layout.html');
